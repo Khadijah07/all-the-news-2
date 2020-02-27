@@ -32,8 +32,9 @@ background-color: #f5f5f5;
 .jumbotron .overlay {
     background: linear-gradient(#333,black);
     position: absolute;
-    opacity: 0.7;
+    opacity: s0.7;
     z-index: auto;
     top: 0;
     left:0;
 }
+

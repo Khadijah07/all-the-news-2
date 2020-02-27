@@ -61,7 +61,7 @@ module.exports = function (router) {
             res.json(data);
         });
     });
-    router.delet("/api/notes/id", function (req, res) {
+    router.delete("/api/notes/id", function (req, res) {
         var query = {};
         query._id = req.params.id;
         notesController.delete(query, function (err, data) {
