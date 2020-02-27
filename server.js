@@ -14,7 +14,7 @@ require("./config/routes")(router);
 
 app.use(express.static(__dirname + "/public"));
 
-app.engine("handlebats", expressHandlebars({
+app.engine("handlebars", expressHandlebars({
     defaultLayout: "main"
 }));
 app.set("view engine", "handlebars");
